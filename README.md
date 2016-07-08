@@ -12,7 +12,13 @@ You should be redirected to login to Splitiwse.com
 
 You will need to authorize the data connector to use Splitwise
 ![AuthorizeAccess](images/authorizeAccess.png)
-
-Then you should be signed in and good to go!
 ![SignedIn](images/SignedIn.png)
+
+At this point, you should be able get the data for each table: 
+![TheData](images/TheData.png)
+
+And now the fun starts, play around with your data to understand how you spend your money: 
+![ExpensesPerCategory](images/ExpensesPerCategory.png)
+![IndividualExpenses](images/IndividualExpenses.png)
+![RestaurantExpenses](images/RestaurantExpenses.png)
 
