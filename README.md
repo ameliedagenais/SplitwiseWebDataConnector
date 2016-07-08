@@ -3,7 +3,7 @@ Tableau web data connector for Splitwise data
 
 Splitwise is a cool app for sharing expenses between a group of friends. See www.splitwise.com. You can use it for tracking household expenses, travel expenses or just splitting lunch with friends. 
 
-#How the web data connector
+#How to use the web data connector
 
 Open Tableau and choose the Web Data Connector Data Source
 Type in the following url: https://tableau-wdc-splitwise.herokuapp.com. 
