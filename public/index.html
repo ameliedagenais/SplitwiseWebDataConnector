@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Splitwise Connector</title>
+    <meta http-equiv="Cache-Control" content="no-store" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" type="text/javascript"></script>
+
+    <!-- Latest WDC Library -->
+    <script src="https://connectors.tableau.com/libs/tableauwdc-2.0.0-beta.js" type="text/javascript"></script>
+
+    <!-- Use to access cookie storage to grab access token -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.0.2/js.cookie.min.js" type="text/javascript"></script>
+
+    <!-- This will contain all of your OAuth code -->
+    <script src="./splitwise.js" type="text/javascript"></script>
+</head>
+<body>
+  <div style="margin: auto; text-align: center; margin-top: 50px; max-width: 300px">
+      <!-- These labels will toggle depending on whether the user is authenticated or not -->
+      <p class="signedin">You are signed in!</p>
+      <p class="notsignedin">You are not signed in, please click below to sign in to your splitwise account.</p>
+
+      <!-- The button to get data! -->
+      <button type="button" id="submitButton" class="btn btn-success" style="margin: 10px;">Get Splitwise Data!</button>
+
+  </div>
+</body>
+</html>
